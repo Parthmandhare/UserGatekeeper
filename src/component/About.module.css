@@ -1,0 +1,55 @@
+.container {
+    color: aliceblue;
+    max-width: 75rem;
+    margin: 14rem auto;
+    padding: 0 2rem;
+    font-family: 'Mukta', sans-serif;
+  }
+  
+  .box {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    font-size: 22px;
+    line-height: 44px;
+  }
+  
+  img {
+    width: 250px;
+    /* height: auto; */
+  }
+  
+  .heading {
+    font-size: 45px;
+    text-align: center;
+  }
+  
+  a {
+    text-decoration: none;
+    color: aliceblue;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    .container {
+      margin: 8rem auto;
+    }
+  
+    .box {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      font-size: 18px;
+      gap: 0px;
+    }
+  
+    .heading {
+      margin-left: 0;
+    }
+
+    hr{
+        display: none;
+    }
+  }
+  
+  

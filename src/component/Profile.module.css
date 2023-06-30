@@ -1,0 +1,58 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: aliceblue;
+  }
+  
+  img {
+    width: 50%; /* Adjust the image width as per your preference */
+    margin-top: 7%;
+  }
+  
+  .container {
+    text-align: center;
+    margin-top: 50px;
+    width: 80%; /* Adjust the container width as per your preference */
+  }
+  
+  .container h2 {
+    font-size: 30px; /* Adjust the font size as per your preference */
+  }
+  
+  button {
+    align-items: center;
+    background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    font-size: 16px; /* Adjust the font size as per your preference */
+    line-height: 1em;
+    padding: 12px 16px; /* Adjust the padding as per your preference */
+    cursor: pointer;
+  }
+  
+  @media (min-width: 768px) {
+    img {
+      width: 17%; /* Adjust the image width as per your preference */
+    }
+  
+    .container {
+      width: 60%; /* Adjust the container width as per your preference */
+      
+    }
+  
+    .container h2 {
+      font-size: 40px; /* Adjust the font size as per your preference */
+      
+      
+    }
+  
+    button {
+      font-size: 20px; /* Adjust the font size as per your preference */
+      min-width: 196px; /* Adjust the minimum width as per your preference */
+    }
+  }
+  
